@@ -1,0 +1,13 @@
+export { default as Home } from "./Home";
+export { default as DetailsModal } from "./DetailsModal";
+export { default as QualityMeasurement } from "./QualityMeasurement";
+export { default as ReportDelivery } from "./ReportDelivery";
+export { default as ProgressReport } from "./ProgressReport";
+export { default as IncidentReport } from "./IncidentReport";
+export { default as Login } from "./Login";
+export { default as KIMInformation } from "./KIMInformation";
+export { default as VisitReport } from "./VisitReport";
+export { default as DeviationForm } from "./DeviationForm";
+export { default as Documents } from "./Documents";
+export { default as QuestionsAnswers } from "./QuestionsAnswers";
+export { default as CreateQuestion } from "./CreateQuestion";

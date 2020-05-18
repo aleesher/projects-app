@@ -1,0 +1,60 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-react",
+    "tslint-eslint-rules",
+    "tslint-config-prettier"
+  ],
+  "jsRules": {},
+  "rules": {
+    "padding-line-between-statements": [
+      "error",
+      {
+        "blankLine": "always",
+        "prev": [
+          "block",
+          "block-like",
+          "function",
+          "class",
+          "const",
+          "let",
+          "var"
+        ],
+        "next": "*"
+      },
+      {
+        "blankLine": "any",
+        "prev": ["const", "let", "var"],
+        "next": ["const", "let", "var"]
+      }
+    ],
+    "no-console": false,
+    "interface-name": false,
+    "jsx-no-lambda": false,
+    "jsx-no-multiline-js": false,
+    "jsx-boolean-value": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "member-access": [true, "no-public"],
+    "prefer-const": true,
+    "no-shadowed-variable": false,
+    "no-consecutive-blank-lines": true,
+    "no-trailing-whitespace": true,
+    "lines-between-class-members": ["error", "always"],
+    "no-duplicate-imports": true,
+    "linebreak-style": [true, "unix"],
+    "space-in-parens": [2, "always"],
+    "template-curly-spacing": [2, "always"],
+    "array-bracket-spacing": [2, "always"],
+    "no-multiple-empty-lines": [2, { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
+    "ter-prefer-arrow-callback": [true],
+    "triple-equals": [true, "allow-null-check"],
+    "space-before-function-paren": [
+      true,
+      {
+        "anonymous": "always",
+        "named": "never"
+      }
+    ]
+  }
+}

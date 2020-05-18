@@ -1,0 +1,9 @@
+export { default as INFO } from "./INFO";
+export { default as RADIO } from "./RADIO";
+export { default as PHOTO_REPORT } from "./PHOTO_REPORT";
+export { default as SIGNATURE } from "./SIGNATURE";
+export { default as TEXT } from "./TEXT";
+export { default as DROPDOWN } from "./DROPDOWN";
+export { default as PRICE } from "./PRICE";
+export { default as DATE } from "./DATE";
+export { default as CHECKBOX } from "./CHECKBOX";
